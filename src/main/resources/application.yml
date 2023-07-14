@@ -1,1 +1,14 @@
 server.port: 8081
+
+chaos.monkey:
+  enabled: true
+  watcher:
+    controller: false
+    restController: true
+    service: false
+    repository: false
+    component: false
+  assaults:
+    latencyActive: true
+    latencyRangeStart: 1000
+    latencyRangeEnd: 5000
