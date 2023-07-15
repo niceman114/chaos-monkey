@@ -14,3 +14,9 @@ chaos.monkey:
     latencyRangeEnd: 5000
 
 util.timer.enabled: true
+
+management:
+  endpoint.chaosmonkey.enabled: true
+  endpoints.web.exposure.include:
+    - health
+    - chaosmonkey
