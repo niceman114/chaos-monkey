@@ -12,3 +12,5 @@ chaos.monkey:
     latencyActive: true
     latencyRangeStart: 1000
     latencyRangeEnd: 5000
+
+util.timer.enabled: true
