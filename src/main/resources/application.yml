@@ -20,3 +20,6 @@ management:
   endpoints.web.exposure.include:
     - health
     - chaosmonkey
+springdoc:
+  swagger-ui.path: /swagger
+  show-actuator: true
